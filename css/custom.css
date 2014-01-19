@@ -1,6 +1,13 @@
-.reveal .slides section .fragment.highlight-brown{
+.reveal .slides section .fragment.fade-in.highlight-red {
+	opacity: 0;
+}
+
+.reveal .slides section .fragment.highlight-brown,
+.reveal .slides section .fragment.fade-in.highlight-red.visible {
 	opacity: 1;
 }
+
+
 .reveal .slides section .fragment.highlight-brown.visible {
 	color: brown;
 }
