@@ -1,0 +1,6 @@
+.reveal .slides section .fragment.highlight-brown{
+	opacity: 1;
+}
+.reveal .slides section .fragment.highlight-brown.visible {
+	color: brown;
+}
