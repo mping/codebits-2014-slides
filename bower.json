@@ -2,6 +2,6 @@
   "name": "letting-go",
   "version": "0.0.1",
   "dependencies": {
-    "reveal.js": "9da2921b7452204b99cd1b3e448e22735f16c751"
+    "reveal.js": "https://github.com/mping/reveal.js.git#d9513b34d58da2e744719f6cc78c1bf99c2aa601"
   }
 }
