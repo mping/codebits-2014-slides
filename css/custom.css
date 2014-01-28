@@ -16,6 +16,30 @@
 	color: black;
 }
 
+/**
+ * custom transition hack
+ */
+
+section.slow-fade.past {
+}
+section.slow-fade.present {
+	transition-duration: 8000ms;
+}
+section.slow-fade.future {
+	transition-duration: 8000ms;
+}
+
+.reveal .slide-background[data-background-transition="slow"] {
+	-webkit-transition-duration: 8s;
+	transition-duration: 8s;
+}
+
+.reveal .slide-background[data-background-transition="keep"] {
+	opacity: 1 !important;
+	visibility: visible !important;
+}
+
+
 
 figure,
 figcaption{

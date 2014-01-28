@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -11,7 +12,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
-        <link rel="stylesheet" href="bower_components/reveal.js/css/theme/default.css" id="theme">
+        <link rel="stylesheet" href="bower_components/reveal.js/css/theme/moon.css" id="theme">
         <link rel="stylesheet" href="css/custom.css">
     
         <!-- For syntax highlighting -->
@@ -63,10 +64,12 @@
 
                 // Parallax background image
                 // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
-                parallaxBackgroundImage: '/images/tigers_nest_prog.jpg', 
-                // Parallax background size
-                // CSS syntax, e.g. "2100px 900px" - currently only pixels are supported (don't use % or auto)
-                parallaxBackgroundSize: '2100px 900px', 
+                parallaxBackgroundImage: '/images/tigers_nest_blurred.jpg', 
+                parallaxBackgroundSize: '2100x 901px', 
+
+                //parallaxBackgroundImage: '/images/meditation_scene.jpg', 
+                //parallaxBackgroundSize: '1500px 1000px', 
+                
                 // This slide transition gives best results:
                 transition: 'linear',
 
@@ -99,16 +102,21 @@
                         condition: function() { return !!document.body.classList; } 
                     },
                     // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
-                    { 
+                    /*{ 
                         src: 'bower_components/reveal.js/plugin/remotes/remotes.js', 
                         async: true, 
                         condition: function() { return !!document.body.classList; } 
-                    },
+                    },*/
                     { 
                         src: 'js/loadhtmlslides.js', 
                         condition: function() { return !!document.querySelector( '[data-html]' ); } 
                     }
                 ]
+            });
+
+            Reveal.addEventListener( 'slidechanged', function( event ) {
+                //console.log(event.currentSlide)
+                //slide-background present
             });
         </script>
 
