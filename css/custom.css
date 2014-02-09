@@ -30,17 +30,17 @@
 	     -o-transition-duration: 20s;
 	        transition-duration: 20s;
 
-	-webkit-transition-timing-function: cubic-bezier(0.860, 0.075, 0.950, 0.335); 
-	   -moz-transition-timing-function: cubic-bezier(0.860, 0.075, 0.950, 0.335); 
-	     -o-transition-timing-function: cubic-bezier(0.860, 0.075, 0.950, 0.335); 
-	        transition-timing-function: cubic-bezier(0.860, 0.075, 0.950, 0.335); /* custom */
+	-webkit-transition-timing-function: cubic-bezier(1.000, 0.010, 0.600, 0.995); 
+	   -moz-transition-timing-function: cubic-bezier(1.000, 0.010, 0.600, 0.995); 
+	     -o-transition-timing-function: cubic-bezier(1.000, 0.010, 0.600, 0.995); 
+	        transition-timing-function: cubic-bezier(1.000, 0.010, 0.600, 0.995);
 }
 
-.reveal .slide-background[data-background-transition="keep"] {
+.reveal .slide-background.past[data-background-transition="keep"],
+.reveal .slide-background.present[data-background-transition="keep"] {
 	opacity: 1 !important;
 	visibility: visible !important;
 }
-
 
 
 figure,
@@ -86,4 +86,13 @@ figcaption{
 	-ms-transform: rotate(20deg);
 	transform: rotate(20deg);
 	-webkit-backface-visibility:hidden; /*prevent rotated text in the caption being jagged in Chrome and Safari*/
+}
+
+.polaroid.paper figure {
+	width: 150px;
+}
+
+.polaroid.paper figure figcaption {
+	font-size: small;
+	line-height: 25px;
 }

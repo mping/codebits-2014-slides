@@ -61,7 +61,7 @@
                 
                     
                         
-    <section data-html="slides/disclaimer.html"></section>
+    <section data-html="slides/1_1_history.html"></section>
 
 
                     
@@ -69,7 +69,7 @@
                 
                     
                         
-    <section data-html="slides/1_1_history.html"></section>
+    <section data-html="slides/disclaimer.html"></section>
 
 
                     
@@ -201,6 +201,18 @@
 
             Reveal.addEventListener( 'slidechanged', function( event ) {
                 //console.log(event.currentSlide)
+                var element = event.currentSlide, 
+                    figures = element.querySelectorAll('.polaroid figure');
+
+                for (var i = 0; i < figures.length; ++i) {
+                    var elFig = figures[i],
+                       rndDeg = Math.random() * 180 - 90, //between -90 and 90
+                         rndX = Math.random() * 80;
+
+                    elFig.style.webkitTransform ='rotate('+rndDeg+'deg) translateX('+rndX+'px)';
+                    elFig.style.marginLeft = rndX+'%';
+
+                }
                 //slide-background present
             });
         </script>
