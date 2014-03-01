@@ -57,6 +57,10 @@
             // Full list of configuration options available here:
             // https://github.com/hakimel/reveal.js#configuration
             Reveal.initialize({
+                // when the presentation is scaled to fit different resolutions
+                width: 1024,
+                height: 768,
+
                 controls: true,
                 progress: true,
                 history: true,
@@ -68,13 +72,14 @@
                 _parallaxBackgroundSize: '2100px 901px', 
 
                 parallaxBackgroundImage: '/images/meditation_scene_2.jpg', 
-                parallaxBackgroundSize: '1772px 1181px', 
+                parallaxBackgroundSize: '2100px 1181px', 
+
                 
                 // This slide transition gives best results:
                 //transition: 'linear',
 
                 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+                transition: Reveal.getQueryHash().transition || 'zoom', // default/cube/page/concave/zoom/linear/fade/none
 
                 // Optional libraries used to extend on reveal.js
                 dependencies: [
@@ -102,11 +107,11 @@
                         condition: function() { return !!document.body.classList; } 
                     },
                     // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
-                    /*{ 
+                    { 
                         src: 'bower_components/reveal.js/plugin/remotes/remotes.js', 
                         async: true, 
                         condition: function() { return !!document.body.classList; } 
-                    },*/
+                    },
                     { 
                         src: 'js/loadhtmlslides.js', 
                         condition: function() { return !!document.querySelector( '[data-html]' ); } 
