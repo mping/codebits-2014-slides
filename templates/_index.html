@@ -107,20 +107,22 @@
                         condition: function() { return !!document.body.classList; } 
                     },
                     // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                    /*
                     { 
                         src: 'bower_components/reveal.js/plugin/remotes/remotes.js', 
                         async: true, 
                         condition: function() { return !!document.body.classList; } 
                     },
+                    */
                     { 
                         src: 'js/loadhtmlslides.js', 
                         condition: function() { return !!document.querySelector( '[data-html]' ); } 
                     }
                 ]
             });
-
+            
+            //random polaroids
             Reveal.addEventListener( 'slidechanged', function( event ) {
-                //console.log(event.currentSlide)
                 var element = event.currentSlide, 
                     figures = element.querySelectorAll('.polaroid figure');
 
@@ -133,7 +135,24 @@
                     elFig.style.marginLeft = rndX+'%';
 
                 }
-                //slide-background present
+            });
+
+            //random images
+            Reveal.addEventListener( 'slidechanged', function( event ) {
+                //console.log(event.currentSlide)
+                var element = event.currentSlide, 
+                    figures = element.querySelectorAll('img.random');
+
+                for (var i = 0; i < figures.length; ++i) {
+                    var elFig = figures[i],
+                         rndX = Math.random() * 100 - 20,
+                         rndY = Math.random() * 100;
+
+                    elFig.style.position ='absolute';
+                    elFig.style.left = rndX+'%';
+                    elFig.style.top  = rndY+'%';
+
+                }
             });
         </script>
 

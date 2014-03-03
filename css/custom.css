@@ -61,6 +61,22 @@ figcaption{
 	color: black;
 }
 
+.large figure {
+	width: 600px;
+}
+
+
+img.random {
+	position: absolute !important;
+	max-width:  1024px;
+	max-height: 768px;
+	border: none !important;
+
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75) !important;
+	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75) !important;
+	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75) !important;
+}
+
 .polaroid figure {
 	float:left;
 	position:relative;
