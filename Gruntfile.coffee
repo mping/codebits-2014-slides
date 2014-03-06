@@ -7,7 +7,7 @@ module.exports = (grunt) ->
 
             livereload:
                 options:
-                    livereload: true
+                    livereload: 35730
                 files: [
                     'index.html'
                     'slides/*.md'
