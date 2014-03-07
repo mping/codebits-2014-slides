@@ -6,6 +6,9 @@ HOW TO EDIT
 
 HOW TO PRESENT
 ==============
+
+* presentation is webkit-only *
+
 > grunt server
 to develop locally
 
@@ -19,6 +22,8 @@ to show speaker notes (asides)
 
 ToDO
 ====
+* presentation is webkit-only
+
 * steal http://www.calm.com/ code
 * Hack some transitions from http://tympanus.net/Development/ImageTransitions/index5.html
 * do a twitter bot for the #codebits #meditation #challenge

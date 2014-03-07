@@ -154,6 +154,20 @@
 
                 }
             });
+
+            //progress bar / meter
+            var meter;
+            Reveal.addEventListener( 'slidechanged', function( event ) {
+                meter = event.currentSlide.querySelector('div.meter .meterbar');
+            });
+            Reveal.addEventListener( 'fragmentshown', function( event ) {
+                if(meter && event.fragment.dataset.meterCss) {
+                    var props = JSON.parse(event.fragment.dataset.meterCss);
+                    for(var key in props) {
+                        meter.style[key] = props[key];
+                    }
+                }   
+            });
         </script>
 
     </body>
