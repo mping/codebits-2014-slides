@@ -21,7 +21,8 @@ to show speaker notes (asides)
 
 - meditação e programçaõ
  - falar do multitasking, lixo da profissao, ruido
-
+ - falar do shaolin progress chart
+ - falar do routinetap 
 
 
 ToDO
