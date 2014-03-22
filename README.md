@@ -19,6 +19,10 @@ to build the presentation
 to show speaker notes (asides)
 
 
+- meditação e programçaõ
+ - falar do multitasking, lixo da profissao, ruido
+
+
 
 ToDO
 ====
