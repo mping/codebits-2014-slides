@@ -20,7 +20,12 @@ to show speaker notes (asides)
 
 
 - expandir wisdom, willpower
+- rever slides o que é meditação 
 - meditação e programçao
+ - scattered
+ - we want everything immediate
+  - stacktrace or GTFO
+
  - falar do multitasking, lixo da profissao, ruido
  - falar do shaolin progress chart
   - https://docs.google.com/spreadsheet/ccc?key=0AoLJFombeWOmcHpNREtDWEJIZWNnZWl1S1pUTnAwZnc&usp=drive_web#gid=0
