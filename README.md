@@ -23,6 +23,7 @@ to show speaker notes (asides)
 - rever slides o que é meditação 
 - meditação e programçao
  - scattered
+ - burnout
  - we want everything immediate
   - stacktrace or GTFO
 
