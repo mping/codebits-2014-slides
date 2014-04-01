@@ -19,22 +19,17 @@ to build the presentation
 to show speaker notes (asides)
 
 
-- expandir wisdom, willpower
-- rever slides o que é meditação 
+- rever slides o que é meditação, reduzir
+- mais flow na programacao
+- puxar wally para what is meditation?
  x greed, hatred and stupidity prevent you from enhancing your concentration
 - 
 - meditação e programçao
- - scattered
- - burnout
- - we want everything immediate
-  - stacktrace or GTFO
-
  - falar do multitasking, lixo da profissao, ruido
  - falar do shaolin progress chart
   - https://docs.google.com/spreadsheet/ccc?key=0AoLJFombeWOmcHpNREtDWEJIZWNnZWl1S1pUTnAwZnc&usp=drive_web#gid=0
  - falar do routinetap 
  - expandir program = think, interrupções
-
 
 ToDO
 ====
