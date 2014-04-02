@@ -21,19 +21,14 @@ to show speaker notes (asides)
 
 - expandir wisdom, willpower
  - falta de força de vontade é consequencia, não causa
-- rever slides o que é meditação 
- - greed, hatred and stupidity prevent you from enhancing your concentration
-- meditação e programçao
- - scattered
- - we want everything immediate
-  - stacktrace or GTFO
-
- - falar do multitasking, lixo da profissao, ruido
+- mais flow na programacao
+- puxar wally para what is meditation?
+ x greed, hatred and stupidity prevent you from enhancing your concentration
+- 
  - falar do shaolin progress chart
   - https://docs.google.com/spreadsheet/ccc?key=0AoLJFombeWOmcHpNREtDWEJIZWNnZWl1S1pUTnAwZnc&usp=drive_web#gid=0
  - falar do routinetap 
  - expandir program = think, interrupções
-
 
 ToDO
 ====
