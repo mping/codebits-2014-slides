@@ -30,7 +30,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
         connect:
 
             livereload:
@@ -60,7 +60,6 @@ module.exports = (grunt) ->
             all: ['js/*.js']
 
         copy:
-
             dist:
                 files: [{
                     expand: true
@@ -68,6 +67,8 @@ module.exports = (grunt) ->
                         'slides/**'
                         'bower_components/**'
                         'js/**'
+                        'images/**'
+                        'custom/**'
                     ]
                     dest: 'dist/'
                 },{
@@ -76,6 +77,23 @@ module.exports = (grunt) ->
                     dest: 'dist/'
                     filter: 'isFile'
                 }]
+
+        rsync:
+            options:
+                args: ["-arvz"]
+                exclude: [
+                  ".git*"
+                  "*.scss"
+                  "node_modules"
+                  "components"
+                ]
+                recursive: true
+              dist:
+                options:
+                    src: "dist/"
+                    dest: "public/codebits-2014-slides/"
+                    host: "deploy@routinetap.com"
+                    syncDestIgnoreExcl: true
 
 
     # Load all grunt tasks.
