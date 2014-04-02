@@ -20,6 +20,7 @@ to show speaker notes (asides)
 
 
 - expandir wisdom, willpower
+ - falta de força de vontade é consequencia, não causa
 - rever slides o que é meditação 
  - greed, hatred and stupidity prevent you from enhancing your concentration
 - meditação e programçao
