@@ -19,9 +19,11 @@ to build the presentation
 to show speaker notes (asides)
 
 
-- rever slides o que é meditação, reduzir
-- mais flow na programacao
-- puxar wally para what is meditation?
+- rever
+ - 2.1 egon
+ - 2.1 put everything down
+ - 3.1 we are so scattered
+
  x greed, hatred and stupidity prevent you from enhancing your concentration
 - 
 - meditação e programçao
