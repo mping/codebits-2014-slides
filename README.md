@@ -26,8 +26,6 @@ to show speaker notes (asides)
 
  x greed, hatred and stupidity prevent you from enhancing your concentration
 - 
-- meditação e programçao
- - falar do multitasking, lixo da profissao, ruido
  - falar do shaolin progress chart
   - https://docs.google.com/spreadsheet/ccc?key=0AoLJFombeWOmcHpNREtDWEJIZWNnZWl1S1pUTnAwZnc&usp=drive_web#gid=0
  - falar do routinetap 
