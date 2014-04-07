@@ -18,6 +18,8 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "grunt-rsync": "~0.5.0"
+    "grunt-rsync": "~0.5.0",
+    "express": "~3.5.1",
+    "socket.io": "~0.9.16"
   }
 }

@@ -117,7 +117,10 @@
                     {
                         src: 'js/loadhtmlslides.js',
                         condition: function() { return !!document.querySelector( '[data-html]' ); }
-                    }
+                    },
+
+                    { src: 'bower_components/socket.io/lib/socket.io.js', async: true },
+                    { src: 'bower_components/reveal.js/plugin/notes-server/client.js', async: true }
                 ]
             });
 
