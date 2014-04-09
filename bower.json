@@ -3,5 +3,8 @@
   "version": "0.0.1",
   "dependencies": {
     "reveal.js": "~2.6.1"
+  },
+  "devDependencies": {
+    "socket.io": "~0.9.15"
   }
 }

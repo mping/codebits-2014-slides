@@ -20,6 +20,8 @@
   "dependencies": {
     "grunt-rsync": "~0.5.0",
     "express": "~3.5.1",
-    "socket.io": "~0.9.16"
+    "socket.io": "~0.9.16",
+    "underscore": "~1.6.0",
+    "mustache": "~0.8.1"
   }
 }
