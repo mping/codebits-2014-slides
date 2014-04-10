@@ -20,12 +20,10 @@ to show speaker notes (asides)
 
 
 - rever
- - 2.1 egon
- - 2.1 put everything down
- - 3.1 we are so scattered
+ x 2.1 egon 
+ x 2.1 put everything down
+ x 3.1 we are so scattered
 
- x greed, hatred and stupidity prevent you from enhancing your concentration
-- 
  - falar do shaolin progress chart
   - https://docs.google.com/spreadsheet/ccc?key=0AoLJFombeWOmcHpNREtDWEJIZWNnZWl1S1pUTnAwZnc&usp=drive_web#gid=0
  - falar do routinetap 

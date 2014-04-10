@@ -38,10 +38,10 @@
  */
 
 .reveal .slide-background[data-background-transition="slow"] {
-	-webkit-transition-duration: 20s;
-	   -moz-transition-duration: 20s;
-	     -o-transition-duration: 20s;
-	        transition-duration: 20s;
+	-webkit-transition-duration: 30s;
+	   -moz-transition-duration: 30s;
+	     -o-transition-duration: 30s;
+	        transition-duration: 30s;
 
 	-webkit-transition-timing-function: cubic-bezier(1.000, 0.010, 0.600, 0.995); 
 	   -moz-transition-timing-function: cubic-bezier(1.000, 0.010, 0.600, 0.995); 
