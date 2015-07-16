@@ -19,23 +19,6 @@ to build the presentation
 to show speaker notes (asides)
 
 
-- rever
- x 2.1 egon 
- x 2.1 put everything down
- x 3.1 we are so scattered
-
- - falar do shaolin progress chart
-  - https://docs.google.com/spreadsheet/ccc?key=0AoLJFombeWOmcHpNREtDWEJIZWNnZWl1S1pUTnAwZnc&usp=drive_web#gid=0
- - falar do routinetap 
- - expandir program = think, interrupções
-
 ToDO
 ====
 * presentation is webkit-only
-
-* steal http://www.calm.com/ code
-* Hack some transitions from http://tympanus.net/Development/ImageTransitions/index5.html
-* do a twitter bot for the #codebits #meditation #challenge
- * listen to tweets with the hashtags
- * create a page per user
- * draw some charts
