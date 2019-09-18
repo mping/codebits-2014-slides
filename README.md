@@ -9,6 +9,10 @@ HOW TO PRESENT
 
 * presentation is webkit-only *
 
+> npm i -g grunt bower
+> npm i
+> bower install
+
 > grunt server
 to develop locally
 
